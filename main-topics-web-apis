@@ -1,0 +1,57 @@
+// JSON //
+
+Request URL = //Breakdown
+Protocol: [{"https://"}],
+Host: [{"library-api.postmanlabs.com"}],
+URI: {["/books"]},
+Path: {["params|variables": "/:category"]},
+Query: [{"params": "value|Bool|Num"}]
+
+Response status codes ==
+Code range: [
+    {
+        "2xx": "Success",
+        "200": "OK",
+        "201": "Created",
+        "204": "No content (silent OK)"
+    },
+    {
+        "3xx": "Redirection",
+        "301": "Moved (path changed)"
+    },
+    {
+        "4xx": "Client error",
+        "400": "Bad request",
+        "401": "Unauthorized",
+        "403": "Not permitted",
+        "404": "Not found"
+    },
+    {
+        "5xx": "Server error",
+        "500": "Internal server error",
+        "502": "Bad gateway",
+        "504": "Gateway timeout"
+    }
+]
+
+Request methods ===
+[
+    {
+        "POST": "Send data (CREATE) *Execute",
+        "GET": "Retrieve data (READ) *Query",
+        "PUT|PATCH": "Update data (UPDATE) *Replaces",
+        "DELETE": "Delete data (DELETE) *Remove"
+    }
+]
+
+RESTful principle patterns !==
+{
+    [
+        "Client-Server": "Architecture",
+        "Statelessness": null,
+        "Layered": "System",
+        "Cacheability": true,
+        "Uniform": "Design",
+        "Code on": "Demand"
+    ]
+}
