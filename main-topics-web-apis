@@ -1,11 +1,16 @@
 // JSON //
 
-Request URL = //Breakdown
-Protocol: [{"https://"}],
-Host: [{"library-api.postmanlabs.com"}],
-URI: {["/books"]},
-Path: {["params|variables": "/:category"]},
-Query: [{"params": "value|Bool|Num"}]
+[
+    { "WEB-API-REQUEST": "SCHEMA" },
+    {
+        "https://": "method",
+        "api.github.com": "host",
+        "/URI": "resource",
+        "?params=value": "query",
+        "&otherParams=velues": "multi-query",
+        "/:identifier": "path param|variable"
+    }
+]
 
 Response status codes ==
 Code range: [
