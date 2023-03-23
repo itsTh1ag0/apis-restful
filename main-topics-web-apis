@@ -8,7 +8,8 @@
         "/URI": "resource",
         "?params=value": "query",
         "&otherParams=velues": "multi-query",
-        "/:identifier": "path param|variable"
+        "/:identifier": "path param|variable",
+        "{identitifier}": "also path param|var"
     }
 ]
 
