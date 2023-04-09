@@ -50,14 +50,18 @@ Request methods ===
     }
 ]
 
-RESTful principle patterns !==
+//RESTful principle patterns !==
+{"RESTful": "software architectural 'constraints'"},
 {
-    [
-        "Client-Server": "Architecture",
-        "Statelessness": null,
-        "Layered": "System",
-        "Cacheability": true,
-        "Uniform": "Design",
-        "Code on": "Demand"
-    ]
+    "Client-server": "communication",
+    "Stateless": "communication",
+    "Caching": "capable",
+    "Uniform-interface": [
+        "Identification": "of-resources",
+        "Manipulation": "of-resources-through-representations",
+        "Self-decriptive": "messages",
+        "Hypermedia": "as-the-engine-of-application-state(HATEOAS)"
+],
+    "Layered": "system",
+    "Code": "on-demand"
 }
