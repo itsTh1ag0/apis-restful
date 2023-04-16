@@ -13,7 +13,7 @@
     }
 ]
 
-Response status codes ==
+// Response status codes ==
 Code range: [
     {
         "2xx": "Success",
@@ -40,7 +40,7 @@ Code range: [
     }
 ]
 
-Request methods ===
+// Request methods ===
 [
     {
         "POST": "Send data (CREATE) *Execute",
