@@ -65,3 +65,22 @@ Request methods ===
     "Layered": "system",
     "Code": "on-demand"
 }
+
+// for (const coding in Postman) {
+[
+    {"Code": "Scripts, Snippets & Boilerplate"},
+    {
+        "pre-request": "before request",
+        "tests": "after response",
+        "code-gen": {
+            "automated": "snnipets"
+        },
+        "var-automation": [
+            "pm object",
+            "request property",
+            "response property",
+            ".json() method"
+        ]
+    }
+]
+
