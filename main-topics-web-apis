@@ -84,3 +84,15 @@ Code range: [
     }
 ]
 
+// while (!apisRulz) {
+[
+    "APIs", ["Client", "App", "Terminal", "Extension", "Plugin"],
+    {
+        "Postman": "Platform, App, Web-Cloud",
+        "RESTFox": "Web-agent",
+        "Thunder": "IDE-extension",
+        "Swagger": "Live(interactive)-documentation",
+        "cURL": "Terminal(based)-CLI",
+        "Webhooks": "(eventDriven)Redirect-endpoints"
+    }
+]
