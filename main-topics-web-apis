@@ -3,13 +3,13 @@
 [
     { "WEB-API-REQUEST": "SCHEMA" },
     {
-        "https://": "method",
+        "https://": "protocol",
         "api.github.com": "host",
         "/URI": "resource",
         "?params=value": "query",
-        "&otherParams=velues": "multi-query",
+        "&otherParams=values": "multi-query",
         "/:identifier": "path param|variable",
-        "{identitifier}": "also path param|var"
+        "{identifier}": "also path param|var"
     }
 ]
 
