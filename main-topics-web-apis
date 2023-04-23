@@ -16,7 +16,7 @@
 // Response status codes ==
 Code range: [
     {
-        "2xx": "Success",
+        "2xx": "Request success",
         "200": "OK",
         "201": "Created",
         "204": "No content (silent OK)"
