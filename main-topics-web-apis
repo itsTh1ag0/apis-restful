@@ -73,7 +73,7 @@ Code range: [
         "pre-request": "before request",
         "tests": "after response",
         "code-gen": {
-            "automated": "snnipets"
+            "automated": "snippets"
         },
         "var-automation": [
             "pm object",
