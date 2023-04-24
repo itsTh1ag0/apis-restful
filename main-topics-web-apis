@@ -40,7 +40,7 @@ Code range: [
     }
 ]
 
-// Request methods ===
+// Request methods === `REST 'VERBs'`
 [
     {
         "POST": "Send data (CREATE) *Execute",
