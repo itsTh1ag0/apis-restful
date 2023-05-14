@@ -96,3 +96,19 @@ Code range: [
         "Webhooks": "(eventDriven)Redirect-endpoints"
     }
 ]
+
+// return /course?status=finished
+[
+    {"What I've learned...": true},
+    {
+        "What": "APIs (Application Programming Interfaces) are",
+        "what": "Postman is (aka API 'clients')",
+        "how to BUILD API requests": ["GET", "POST", "PATCH", "DELETE"],
+        "how to INTERPRET": "API responses (JSON, XML, HTML, TXT)",
+        "how to READ": "API documentation & Swagger (Open-API)",
+        "how to AUTHORIZE": "APIs (api-key, JWT, Oauth1.0)",
+        "how to SET VARIABLES": "w/different scopes (Global, Collec, Envirn, Local)",
+        "how to AUTOMATE": "using 'scripts' (pre-request | after-response)",
+        "how to GENERATE": "API code snippets&boilerplate (codegen)"
+    }
+]
