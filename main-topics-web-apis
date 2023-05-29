@@ -112,3 +112,14 @@ Code range: [
         "how to GENERATE": "API code snippets&boilerplate (codegen)"
     }
 ]
+
+// if (JS in JSON) {
+// JS methods to parse in<>from JSON-JS :
+[
+    {".json()": "JSON to JS obj"},
+    {"JSON.parse()": ["JS obj to JSON strg"]},
+    {"JSON.stringify()": {
+        "any JS": "data into JSON strg"
+        }
+    }
+]
